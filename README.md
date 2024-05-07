@@ -1,37 +1,40 @@
-## Weather App
+<h1> Weather App </h1>
 
-### Problem Statement and Motivation
 I've built a weather app to reinforce my skills in using APIs, breaking code into components, and developing a visually appealing application.
 
-#### Location Input
+<h2> Feature 1: Location Input </h2>
 Users are prompted to input an address, city name, or zip code in order to obtain latitude and longitude. I've utilized the OpenWeatherAPI Geocoding API for this purpose.
 
-#### Step 2: Display the Weather 
+<h2> Feature 2: Display the Weather </h2>
 With the latitude and longitude obtained from the API, the app displays:
-- Current weather
-- Hourly forecast for the next day
-- Daily forecasts for the next week (7 days).
+<ol>
+  <li> Current weather </li>
+  <li> Hourly forecast for the next day </li>
+  <li> Daily forecasts for the next week (7 days). </li>
+</ol>
 
-API URLs:
-- [Current weather](https://openweathermap.org/current)
-- [Hourly forecast](https://openweathermap.org/forecast5)
-- [Daily forecasts](https://openweathermap.org/forecast16)
+API URLs Referenced:
+<ol>
+  <li> [Current weather](https://openweathermap.org/current) </li>
+  <li> [Hourly forecast](https://openweathermap.org/forecast5) </li>
+  <li> [Daily forecasts](https://openweathermap.org/forecast16) </li>
+</ol>
 
-#### Part II: 
-#### Step 3: Use the OpenWeatherAPI icons
+
+</h2> Step 3: Use the OpenWeatherAPI icons </h2>
 To enhance the user experience, I've incorporated weather icons from the OpenWeatherAPI.
 
-#### Step 4: Display the top news from New York Times
+</h2> Step 4: Display the top news from New York Times </h2>
 After displaying the weather, the app fetches today’s top news stories from the New York Times API. Users can see the top 5 news stories from the last day, including the title, author, description, image, and a link to the story on the NYT website.
 
 
-### Technologies Used
+<h2> Technologies Used </h2>
 - React
 - Axios
 - OpenWeatherAPI
 - New York Times API
 
-### Installation
+</h2> Installation </h2>
 1. Clone the repository: `git clone <repository-url>`
 2. Install dependencies: `npm install`
 3. Run the app: `npm start`
