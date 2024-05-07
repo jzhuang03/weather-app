@@ -3,8 +3,9 @@
 I've built a weather app to reinforce my skills in using APIs as well as strengthening my Javascript skills to deliver a visually appealing application. 
 
 
-<h1> Live Demo </h1>
-https://github.com/jzhuang03/weather-app/assets/118019266/1f267e98-d4dc-466a-9d71-c05ff2b87894
+<h2> Live Demo </h2>
+https://github.com/jzhuang03/weather-app/assets/118019266/ac9252ce-8ad1-45bc-ade5-5cd29f7ba59e
+
 
 
 
