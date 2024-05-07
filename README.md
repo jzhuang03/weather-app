@@ -1,7 +1,6 @@
 <h1> Weather App </h1>
 
-I've built a weather app to reinforce my skills in using APIs as well as strengthening my Javascript skills to deliver a visually appealing application. 
-
+In building this weather app, I aimed to reinforce my skills in using APIs and strengthen my JavaScript abilities while continuing my familiarity with React.js. As a student unfamiliar with React.js and APIs, I faced challenges in structuring components and handling API data, but through perseverance and learning, I successfully developed a visually appealing application. The Weather App is a user-friendly application designed to provide accurate and up-to-date weather information for any location worldwide. With simple yet intuitive input options, users can easily find the weather forecast for their desired location, including current conditions, hourly forecasts, and daily outlooks for the next week. The app also integrates top news stories from the New York Times API, ensuring users stay informed about the latest events alongside their weather updates.
 
 https://github.com/jzhuang03/weather-app/assets/118019266/90d5cd70-6237-4ccb-a502-e1cb50611b9f
 
