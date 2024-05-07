@@ -38,13 +38,6 @@ After displaying the weather, the app fetches today’s top news stories from th
   <li> New York Times API </li>
 </ul>
 
-</h2> Installation </h2>
-<
-1. Clone the repository: `git clone <repository-url>`
-2. Install dependencies: `npm install`
-3. Run the app: `npm start`
-
-
 
 
 
