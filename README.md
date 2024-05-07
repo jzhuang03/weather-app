@@ -3,9 +3,9 @@
 I've built a weather app to reinforce my skills in using APIs as well as strengthening my Javascript skills to deliver a visually appealing application. 
 
 
-<h2> Live Demo </h2>
+<h1> Live Demo </h1>
+https://github.com/jzhuang03/weather-app/assets/118019266/1f267e98-d4dc-466a-9d71-c05ff2b87894
 
-https://github.com/jzhuang03/weather-app/assets/118019266/5d1da0f0-ec8b-4bce-a02f-19c5e99a837b
 
 
 <h2> Feature 1: Location Input </h2>
@@ -45,5 +45,8 @@ After displaying the weather, the app fetches today’s top news stories from th
 1. Clone the repository: `git clone <repository-url>`
 2. Install dependencies: `npm install`
 3. Run the app: `npm start`
+
+
+
 
 
