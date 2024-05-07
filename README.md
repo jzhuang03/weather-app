@@ -3,10 +3,7 @@
 I've built a weather app to reinforce my skills in using APIs as well as strengthening my Javascript skills to deliver a visually appealing application. 
 
 
-<h2> Live Demo </h2>
-https://github.com/jzhuang03/weather-app/assets/118019266/ac9252ce-8ad1-45bc-ade5-5cd29f7ba59e
-
-
+https://github.com/jzhuang03/weather-app/assets/118019266/90d5cd70-6237-4ccb-a502-e1cb50611b9f
 
 
 <h2> Feature 1: Location Input </h2>
