@@ -28,13 +28,16 @@ To enhance the user experience, I've incorporated weather icons from the OpenWea
 After displaying the weather, the app fetches today’s top news stories from the New York Times API. Users can see the top 5 news stories from the last day, including the title, author, description, image, and a link to the story on the NYT website.
 
 
-<h2> Technologies Used </h2>
-- React
-- Axios
-- OpenWeatherAPI
-- New York Times API
+<h2> Built with </h2>
+<ul>
+  <li> React </li>
+  <li> Axios </li>
+  <li> OpenWeatherAPI </li>
+  <li> New York Times API </li>
+</ul>
 
 </h2> Installation </h2>
+<
 1. Clone the repository: `git clone <repository-url>`
 2. Install dependencies: `npm install`
 3. Run the app: `npm start`
