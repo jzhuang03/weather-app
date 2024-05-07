@@ -30,8 +30,9 @@ const DailyForecast = ({ location }) => {
           />
         </div>
         <div>{day.weather[0].main}</div>
-        <div>High: {day.temp.max.toFixed()}°F</div>
-        <div>Low: {day.temp.min.toFixed()}°F</div>
+        {/* Conversion from Kelvin to Fahrenheit */}
+        <div>High: {(((day.temp.max - 273.15) * 9) / 5 + 32).toFixed()}°F</div>
+        <div>Low: {(((day.temp.min - 273.15) * 9) / 5 + 32).toFixed()}°F</div>
       </div>
     ));
   };
