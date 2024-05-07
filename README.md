@@ -22,10 +22,10 @@ API URLs Referenced:
 - [Daily forecasts](https://openweathermap.org/forecast16)
 
 
-</h2> Feature 3: Use the OpenWeatherAPI icons </h2>
+<h2> Feature 3: Use the OpenWeatherAPI icons </h2>
 To enhance the user experience, I've incorporated weather icons from the OpenWeatherAPI.
 
-</h2> Feature 4: Display the top news from New York Times </h2>
+<h2> Feature 4: Display the top news from New York Times </h2>
 After displaying the weather, the app fetches today’s top news stories from the New York Times API. Users can see the top 5 news stories from the last day, including the title, author, description, image, and a link to the story on the NYT website.
 
 
