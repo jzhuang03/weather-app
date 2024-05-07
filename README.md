@@ -1,9 +1,15 @@
 <h1> Weather App </h1>
 
-I've built a weather app to reinforce my skills in using APIs, breaking code into components, and developing a visually appealing application.
+I've built a weather app to reinforce my skills in using APIs as well as strengthening my Javascript skills to deliver a visually appealing application. 
+
+
+<h2> Live Demo </h2>
+
+https://github.com/jzhuang03/weather-app/assets/118019266/5d1da0f0-ec8b-4bce-a02f-19c5e99a837b
+
 
 <h2> Feature 1: Location Input </h2>
-Users are prompted to input an address, city name, or zip code in order to obtain latitude and longitude. I've utilized the OpenWeatherAPI Geocoding API for this purpose.
+Users are prompted to input an address, city name, or zip code in order for program to locate latitude and longitude. I've utilized the OpenWeatherAPI Geocoding API for this purpose.
 
 <h2> Feature 2: Display the Weather </h2>
 With the latitude and longitude obtained from the API, the app displays:
@@ -14,11 +20,9 @@ With the latitude and longitude obtained from the API, the app displays:
 </ol>
 
 API URLs Referenced:
-<ol>
-  <li> [Current weather](https://openweathermap.org/current) </li>
-  <li> [Hourly forecast](https://openweathermap.org/forecast5) </li>
-  <li> [Daily forecasts](https://openweathermap.org/forecast16) </li>
-</ol>
+- [Current weather](https://openweathermap.org/current)
+- [Hourly forecast](https://openweathermap.org/forecast5)
+- [Daily forecasts](https://openweathermap.org/forecast16)
 
 
 </h2> Step 3: Use the OpenWeatherAPI icons </h2>
@@ -41,3 +45,5 @@ After displaying the weather, the app fetches today’s top news stories from th
 1. Clone the repository: `git clone <repository-url>`
 2. Install dependencies: `npm install`
 3. Run the app: `npm start`
+
+
