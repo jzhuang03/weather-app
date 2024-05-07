@@ -8,6 +8,9 @@ body {
   font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  background: url('./assets/storm.jpg') no-repeat center center;
+  background-size: cover; 
+  color: #fff;
 }
 
 p {
@@ -22,19 +25,7 @@ h1 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-color: rgba(0,0,0,0.4);
-  color: #fff;
-}
-
-.app:before {
-  content: '';
-  background: url('./assets/storm.jpg') no-repeat center center/cover;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  background-color: rgba(0,0,0,0.4); 
 }
 
 .app .search {
@@ -56,22 +47,27 @@ h1 {
 }
 
 .container {
-  max-width: 700px;
-  height: 700px;
+  max-width: 800px;
+  height: 800px;
   margin: auto;
   padding: 0 1rem;
   position: relative;
   top: 1%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+}
+
+.left-container {
+  width: 65%; 
+}
+
+.right-container {
+  width: 35%;
+  padding: 0 5rem;
 }
 
 .app .top {
-  width: 80%;
-  margin: 1rem auto;
+  width: 100%
 } 
-
 
 .app .current_weather {
   display: flex;
@@ -88,9 +84,77 @@ h1 {
   font-weight: 700;
 }
 
+.forecast-container {
+  display: flex;
+  overflow-x: auto;
+  margin-top: 20px;
+}
 
+.forecast-item {
+  flex: 0 0 auto;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
 
+.forecast-time {
+  font-size: 16px;
+  font-weight: bold;
+}
 
+.forecast-icon img {
+  width: 50px;
+  height: 50px;
+}
 
+.forecast-temp {
+  font-size: 16px;
+}
 
+.daily-forecast-container {
+  width: 300px; 
+  height: 550px;
+  overflow-y: auto;
+  padding: 10px;
+}
 
+.scroll-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.daily-forecast-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.daily-forecast-item div {
+  margin-bottom: 5px;
+}
+
+.daily-forecast-item div:first-child {
+  font-weight: bold;
+}
+
+.daily-forecast-item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: ;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.News-Display-container {
+  background-color: rgba(255, 255, 255, 0.2); 
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
