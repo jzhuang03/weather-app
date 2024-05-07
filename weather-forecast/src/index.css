@@ -8,9 +8,10 @@ body {
   font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  background: url('./assets/storm.jpg') no-repeat center center;
+  background: url('./assets/storm.gif') no-repeat center center fixed;
   background-size: cover; 
   color: #fff;
+  height: 100%; /* Ensure the body covers the entire viewport */
 }
 
 p {
@@ -30,7 +31,7 @@ h1 {
 
 .app .search {
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .app input {
@@ -54,6 +55,11 @@ h1 {
   position: relative;
   top: 1%;
   display: flex;
+}
+
+.app .description{
+  padding-bottom: 50px;
+  padding-top: 40px;
 }
 
 .left-container {
@@ -145,16 +151,34 @@ h1 {
   margin-bottom: 5px;
 }
 
-.bottom {
+.news-display-container {
   display: flex;
-  flex-direction: ;
-  align-items: center;
-  margin-top: 20px;
+  flex-wrap: wrap; /* Wrap articles onto multiple rows */
+  justify-content: center;
+  overflow-x: auto;
+  padding: 20px 0;
+  margin-bottom: 20px; 
 }
 
-.News-Display-container {
-  background-color: rgba(255, 255, 255, 0.2); 
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
+.news-article {
+  margin: 0 10px 20px; 
+  text-align: center;
+  flex: 0 0 calc(25% - 20px); /* Set each article to occupy 25% of the container width */
+  max-width: 300px; /* Maximum width for each article */
+}
+
+#news-title {
+  text-align: center;
+  font-size: 33px;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.revealable {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.revealable.active {
+  opacity: 1;
 }

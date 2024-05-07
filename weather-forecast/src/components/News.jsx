@@ -23,13 +23,11 @@ const NewsDisplay = () => {
   including the title, author, description, image, and a link to the story 
   on the NYT website */
   return (
-    <div>
-      <h2>Top 5 News Stories from The New York Times</h2>
+    <div className="news-display-container">
       {articles.map((article, index) => (
-        <div key={index} style={{ marginBottom: "20px" }}>
-          <h3>{article.title}</h3>
-          <p>By: {article.byline}</p>
-          <p>{article.abstract}</p>
+        <div key={index} className="news-article">
+          <p>{article.title}</p>
+          <h4>{article.byline}</h4>
           {article.media.length > 0 &&
             article.media[0]["media-metadata"].length > 0 && (
               <img
@@ -38,6 +36,7 @@ const NewsDisplay = () => {
                 style={{ maxWidth: "100%", height: "auto" }}
               />
             )}
+            <figcaption> {article.abstract} </figcaption>
           <a href={article.url} target="_blank" rel="noopener noreferrer">
             Read More
           </a>
