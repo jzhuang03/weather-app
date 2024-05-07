@@ -1,12 +1,11 @@
-import { useState } from "react";
-import Location from "./components/Location";
 import "./App.css";
 import WeatherApp from "./components/WeatherApp";
+import "./App.css";
 
 function App() {
   return (
     <>
-      <WeatherApp />
+      <WeatherApp/>
     </>
   );
 }
